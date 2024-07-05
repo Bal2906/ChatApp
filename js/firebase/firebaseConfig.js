@@ -2,7 +2,8 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
-
+patronesdisenio
+rey147XD
 class Firebase {
   constructor() {
     if (!Firebase.instance) {
