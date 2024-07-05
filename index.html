@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Chat Application</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chat-container">
+      <div class="chat-header">
+        Real-Time Chat
+      </div>
+      <div id="messageList" class="message-list">
+        <!-- Messages will be dynamically added here -->
+      </div>
+      <form id="messageForm" class="message-form">
+        <input type="text" name="message" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="user-container">
+      <div class="user-header">
+        User Authentication
+      </div>
+      <form id="loginForm" class="login-form">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <div class="register-link">
+        <a href="#" id="registerLink">Create an account</a>
+      </div>
+      <form id="registerForm" class="register-form">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
